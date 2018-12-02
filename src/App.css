@@ -1,0 +1,138 @@
+.App {
+	width: 800px;
+	margin: 40px auto;
+}
+.widget {
+	width: 334px;
+	border: 2px solid #8DB1BD;
+	float: left;
+	margin: 30px;
+	padding: 0;
+	height: 373px;
+	overflow: hidden;
+}
+
+.widget button {
+	width: 80%;
+	border: 2px solid #31bf31;
+	color: #31bf31;
+	font-size: 20px;
+	padding: 11px;
+	font-weight: bold;
+	margin: 5px 10%;
+	float: none;
+	cursor: pointer;
+	background: none;
+	border-radius: 6px;
+}
+
+
+.widget h2 {
+	float: left;
+	width: 100%;
+	Margin: 0;
+	padding: 0;
+	background: #02576B;
+	color: white;
+	text-align: center;
+	font-size: 19px;
+	/* height: 35px; */
+	vertical-align: middle;
+	text-transform: uppercase;
+	padding: 7px 0;
+}
+
+h3, .t_means{
+  font-size:15px;
+  color:#267C63;
+  float:left;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.t_means {
+	color: #02576B;
+	font-weight: bold;
+	margin: 10px 15px;
+	text-align: center;
+	width: calc(100% - 30px);
+}
+.t_means span{
+  color:green;
+}
+.myrow{
+  widows: 100%;
+  padding:0;
+  margin:0;
+}
+.input_section {
+	width: calc(100% - 20px);
+	float: left;
+	padding: 10px 25px;
+}
+
+.myinput {
+	width: 55px;
+	float: left;
+	padding: 0;
+	margin: 2px 28px 0 0;
+}
+
+.myinput.l {
+	width: 100px !important;
+}
+.myinput input {
+	font-size: 14px;
+	/* font-weight: bold; */
+	color: #8DB1BD;
+	width: 100%;
+	float: left;
+	border: 2px solid #8DB1BD;
+	border-radius: 5px;
+	padding: 8px 6px;
+}
+.myinput label{
+  color:#8DB1BD;
+  font-size:12px;
+  font-weight:bold;
+}
+.slider label {
+	color: #116886;
+	font-size: 15px;
+	font-weight: bold;
+	width: 136px;
+	float: left;
+	padding: 0 0 0 15px;
+}
+.slider input{
+  width:150px;
+  float:left;
+	-webkit-appearance: none;
+	height: 31px;
+	border-radius: 5px;  
+	background: #fff;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: #02576B;
+	cursor: pointer;
+	border:none;
+}
+
+.slider input::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #02576B;
+	cursor: pointer;
+	border:none;
+}
